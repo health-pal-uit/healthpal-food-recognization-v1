@@ -1,0 +1,622 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "HealthPal AI Service",
+    "description": "Frozen 92-output detector and P0/P1/P2 policies for a ten-food catalogue. Suggestions require user confirmation.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/health/live": {
+      "get": {
+        "summary": "Live",
+        "operationId": "live_health_live_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/health/ready": {
+      "get": {
+        "summary": "Ready",
+        "operationId": "ready_health_ready_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/recognize": {
+      "post": {
+        "summary": "Recognize",
+        "operationId": "recognize_v1_recognize_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_recognize_v1_recognize_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecognitionResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request Entity Too Large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Unsupported Media Type",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Unprocessable Entity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/compare": {
+      "post": {
+        "summary": "Compare",
+        "operationId": "compare_v1_compare_post",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "$ref": "#/components/schemas/Body_compare_v1_compare_post"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ComparisonResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "413": {
+            "description": "Request Entity Too Large",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "Unsupported Media Type",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Unprocessable Entity",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Service Unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Body_compare_v1_compare_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "title": "File"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_compare_v1_compare_post"
+      },
+      "Body_recognize_v1_recognize_post": {
+        "properties": {
+          "file": {
+            "type": "string",
+            "format": "binary",
+            "title": "File"
+          },
+          "policy": {
+            "$ref": "#/components/schemas/Policy",
+            "default": "P1"
+          }
+        },
+        "type": "object",
+        "required": [
+          "file"
+        ],
+        "title": "Body_recognize_v1_recognize_post"
+      },
+      "Candidate": {
+        "properties": {
+          "class_id": {
+            "type": "integer",
+            "maximum": 91.0,
+            "minimum": 0.0,
+            "title": "Class Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          },
+          "confidence": {
+            "type": "number",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Confidence"
+          },
+          "bbox_xyxy": {
+            "prefixItems": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              },
+              {
+                "type": "number"
+              }
+            ],
+            "type": "array",
+            "maxItems": 4,
+            "minItems": 4,
+            "title": "Bbox Xyxy"
+          }
+        },
+        "type": "object",
+        "required": [
+          "class_id",
+          "label",
+          "confidence",
+          "bbox_xyxy"
+        ],
+        "title": "Candidate"
+      },
+      "ComparisonResult": {
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "const": "1.0",
+            "title": "Schema Version",
+            "default": "1.0"
+          },
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "model_version": {
+            "type": "string",
+            "title": "Model Version"
+          },
+          "model_sha256": {
+            "type": "string",
+            "title": "Model Sha256"
+          },
+          "policy_version": {
+            "type": "string",
+            "title": "Policy Version"
+          },
+          "catalogue_version": {
+            "type": "string",
+            "title": "Catalogue Version"
+          },
+          "image": {
+            "$ref": "#/components/schemas/ImageInfo"
+          },
+          "candidate": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Candidate"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "user_confirmation_required": {
+            "type": "boolean",
+            "const": true,
+            "title": "User Confirmation Required",
+            "default": true
+          },
+          "original_inference_passes": {
+            "type": "integer",
+            "const": 1,
+            "title": "Original Inference Passes",
+            "default": 1
+          },
+          "brightened_inference_passes": {
+            "type": "integer",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Brightened Inference Passes"
+          },
+          "processing_ms": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Processing Ms"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/components/schemas/PolicyOutcome"
+            },
+            "type": "array",
+            "title": "Results"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "model_version",
+          "model_sha256",
+          "policy_version",
+          "catalogue_version",
+          "image",
+          "candidate",
+          "brightened_inference_passes",
+          "processing_ms",
+          "results"
+        ],
+        "title": "ComparisonResult"
+      },
+      "ErrorDetail": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "title": "Code"
+          },
+          "message": {
+            "type": "string",
+            "title": "Message"
+          },
+          "retryable": {
+            "type": "boolean",
+            "title": "Retryable"
+          }
+        },
+        "type": "object",
+        "required": [
+          "code",
+          "message",
+          "retryable"
+        ],
+        "title": "ErrorDetail"
+      },
+      "ErrorResponse": {
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "const": "1.0",
+            "title": "Schema Version",
+            "default": "1.0"
+          },
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "error": {
+            "$ref": "#/components/schemas/ErrorDetail"
+          }
+        },
+        "type": "object",
+        "required": [
+          "request_id",
+          "error"
+        ],
+        "title": "ErrorResponse"
+      },
+      "ImageInfo": {
+        "properties": {
+          "width": {
+            "type": "integer",
+            "title": "Width"
+          },
+          "height": {
+            "type": "integer",
+            "title": "Height"
+          },
+          "coordinate_space": {
+            "type": "string",
+            "const": "decoded_exif_oriented_image",
+            "title": "Coordinate Space",
+            "default": "decoded_exif_oriented_image"
+          }
+        },
+        "type": "object",
+        "required": [
+          "width",
+          "height"
+        ],
+        "title": "ImageInfo"
+      },
+      "Policy": {
+        "type": "string",
+        "enum": [
+          "P0",
+          "P1",
+          "P2"
+        ],
+        "title": "Policy"
+      },
+      "PolicyOutcome": {
+        "properties": {
+          "policy": {
+            "$ref": "#/components/schemas/Policy"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Status"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          },
+          "suggestion": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Candidate"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "type": "object",
+        "required": [
+          "policy",
+          "status",
+          "reason",
+          "suggestion"
+        ],
+        "title": "PolicyOutcome"
+      },
+      "RecognitionResult": {
+        "properties": {
+          "policy": {
+            "$ref": "#/components/schemas/Policy"
+          },
+          "status": {
+            "$ref": "#/components/schemas/Status"
+          },
+          "reason": {
+            "type": "string",
+            "title": "Reason"
+          },
+          "suggestion": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Candidate"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "schema_version": {
+            "type": "string",
+            "const": "1.0",
+            "title": "Schema Version",
+            "default": "1.0"
+          },
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "model_version": {
+            "type": "string",
+            "title": "Model Version"
+          },
+          "model_sha256": {
+            "type": "string",
+            "title": "Model Sha256"
+          },
+          "policy_version": {
+            "type": "string",
+            "title": "Policy Version"
+          },
+          "catalogue_version": {
+            "type": "string",
+            "title": "Catalogue Version"
+          },
+          "image": {
+            "$ref": "#/components/schemas/ImageInfo"
+          },
+          "candidate": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Candidate"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "user_confirmation_required": {
+            "type": "boolean",
+            "const": true,
+            "title": "User Confirmation Required",
+            "default": true
+          },
+          "original_inference_passes": {
+            "type": "integer",
+            "const": 1,
+            "title": "Original Inference Passes",
+            "default": 1
+          },
+          "brightened_inference_passes": {
+            "type": "integer",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Brightened Inference Passes"
+          },
+          "processing_ms": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Processing Ms"
+          }
+        },
+        "type": "object",
+        "required": [
+          "policy",
+          "status",
+          "reason",
+          "suggestion",
+          "request_id",
+          "model_version",
+          "model_sha256",
+          "policy_version",
+          "catalogue_version",
+          "image",
+          "candidate",
+          "brightened_inference_passes",
+          "processing_ms"
+        ],
+        "title": "RecognitionResult"
+      },
+      "Status": {
+        "type": "string",
+        "enum": [
+          "accepted",
+          "uncertain",
+          "no_detection"
+        ],
+        "title": "Status"
+      }
+    }
+  }
+}

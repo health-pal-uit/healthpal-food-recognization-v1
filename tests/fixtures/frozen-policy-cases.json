@@ -1,0 +1,6939 @@
+{
+  "source_report_sha256": "bd04637fc6d4bc08d5c1e7752c7959ab3c8236e49fbf90d0e3d37de277e0671e",
+  "meaning": "Saved prediction metadata only; no images or new training labels. Regression checks, not a new quality evaluation.",
+  "model_sha256": "c282c0654c589feb5fec8c6247e99a0ef92f0eefeabf08c5ce825ff7cfd08579",
+  "cases": [
+    {
+      "case_id": "FT001",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.9308570027351379,
+        "xyxy": [
+          187.04736328125,
+          130.1019287109375,
+          1191.3507080078125,
+          815.338134765625
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.9321724772453308,
+        "xyxy": [
+          189.20803833007812,
+          129.6571044921875,
+          1191.292236328125,
+          815.686767578125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT002",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.14411109685897827,
+        "xyxy": [
+          9.151758193969727,
+          0.0,
+          993.0512084960938,
+          1016.4767456054688
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.09204880148172379,
+        "xyxy": [
+          27.84345817565918,
+          1.966894507408142,
+          919.0822143554688,
+          1021.5255126953125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT003",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.8953384757041931,
+        "xyxy": [
+          34.5504150390625,
+          80.3448486328125,
+          615.593505859375,
+          368.28289794921875
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.8925811648368835,
+        "xyxy": [
+          30.931396484375,
+          80.99746704101562,
+          615.549072265625,
+          368.2995300292969
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT004",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.8455552458763123,
+        "xyxy": [
+          139.37632751464844,
+          370.0389404296875,
+          647.2745971679688,
+          725.2145385742188
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.84867262840271,
+        "xyxy": [
+          138.9481964111328,
+          369.8955383300781,
+          647.1844482421875,
+          725.7582397460938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT005",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.8913319706916809,
+        "xyxy": [
+          261.4349060058594,
+          398.722412109375,
+          1136.6234130859375,
+          1026.1993408203125
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.8917146921157837,
+        "xyxy": [
+          260.63818359375,
+          399.3742980957031,
+          1136.380615234375,
+          1025.900634765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT006",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.9283081293106079,
+        "xyxy": [
+          381.1704406738281,
+          172.69766235351562,
+          967.6799926757812,
+          624.36669921875
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.9262362718582153,
+        "xyxy": [
+          378.94091796875,
+          172.5283203125,
+          967.4806518554688,
+          622.7180786132812
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT007",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.9677233099937439,
+        "xyxy": [
+          425.72076416015625,
+          225.79347229003906,
+          995.8401489257812,
+          550.8423461914062
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.9687410593032837,
+        "xyxy": [
+          426.1373291015625,
+          225.65476989746094,
+          995.5502319335938,
+          551.483154296875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT008",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.5964117646217346,
+        "xyxy": [
+          14.867019653320312,
+          3.813600540161133,
+          734.8660278320312,
+          516.6654052734375
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.6024280190467834,
+        "xyxy": [
+          20.485925674438477,
+          3.655672073364258,
+          734.310302734375,
+          515.02490234375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT009",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.7207818627357483,
+        "xyxy": [
+          87.22309875488281,
+          513.9032592773438,
+          424.7088317871094,
+          832.7977905273438
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.7139834761619568,
+        "xyxy": [
+          87.550537109375,
+          514.3373413085938,
+          424.63458251953125,
+          832.5177612304688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT010",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.7527807950973511,
+        "xyxy": [
+          84.4144058227539,
+          0.7220230102539062,
+          650.2236938476562,
+          913.890869140625
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.7752668857574463,
+        "xyxy": [
+          84.5028076171875,
+          0.6330211162567139,
+          657.077392578125,
+          912.6178588867188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT011",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.1695513278245926,
+        "xyxy": [
+          149.9138946533203,
+          275.1671447753906,
+          563.09033203125,
+          641.0709228515625
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.2530634105205536,
+        "xyxy": [
+          151.3440704345703,
+          280.5730285644531,
+          561.8626098632812,
+          629.8551635742188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT012",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.8728284239768982,
+        "xyxy": [
+          267.857421875,
+          578.7838134765625,
+          866.843017578125,
+          1062.9368896484375
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.7894473075866699,
+        "xyxy": [
+          265.8367919921875,
+          577.29638671875,
+          868.661376953125,
+          1064.8095703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT013",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.9485524296760559,
+        "xyxy": [
+          0.0,
+          23.0396728515625,
+          1089.97705078125,
+          1254.61474609375
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.9439970850944519,
+        "xyxy": [
+          0.0,
+          34.0335693359375,
+          1092.6204833984375,
+          1232.3646240234375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT014",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.946622908115387,
+        "xyxy": [
+          166.04449462890625,
+          2.2964859008789062,
+          1078.48779296875,
+          653.7080078125
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.9517048001289368,
+        "xyxy": [
+          181.42593383789062,
+          3.0533981323242188,
+          1076.2681884765625,
+          654.1345825195312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT015",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.6919069290161133,
+        "xyxy": [
+          7.171907424926758,
+          26.052303314208984,
+          582.5772094726562,
+          513.80712890625
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.6710323691368103,
+        "xyxy": [
+          4.076271057128906,
+          22.461885452270508,
+          571.9678955078125,
+          476.31829833984375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT016",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.21608130633831024,
+        "xyxy": [
+          5.326225280761719,
+          100.40052795410156,
+          444.62249755859375,
+          402.84185791015625
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.2170928418636322,
+        "xyxy": [
+          5.34800910949707,
+          99.8109130859375,
+          444.5025329589844,
+          403.0583801269531
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT017",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.9010953307151794,
+        "xyxy": [
+          35.0880126953125,
+          56.677001953125,
+          1266.07666015625,
+          1255.2294921875
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.923819899559021,
+        "xyxy": [
+          32.94384765625,
+          54.15673828125,
+          1269.4373779296875,
+          1257.7353515625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT018",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.9676753282546997,
+        "xyxy": [
+          9.6075439453125,
+          152.8748779296875,
+          848.0650634765625,
+          1132.906982421875
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.9684721231460571,
+        "xyxy": [
+          10.5234375,
+          156.056884765625,
+          847.3985595703125,
+          1130.9652099609375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT019",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.9472262263298035,
+        "xyxy": [
+          7.224414348602295,
+          4.077588081359863,
+          1018.3959350585938,
+          573.072998046875
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.9290469288825989,
+        "xyxy": [
+          6.717382907867432,
+          4.095605373382568,
+          1017.8097534179688,
+          572.8760986328125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT020",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.2975130081176758,
+        "xyxy": [
+          252.0338897705078,
+          74.6454086303711,
+          830.9249267578125,
+          553.46630859375
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.36972299218177795,
+        "xyxy": [
+          252.01280212402344,
+          74.53362274169922,
+          830.2409057617188,
+          552.4658203125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT021",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.588886559009552,
+        "xyxy": [
+          6.7223968505859375,
+          170.78140258789062,
+          1076.7628173828125,
+          806.7946166992188
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.6560187935829163,
+        "xyxy": [
+          8.617229461669922,
+          242.90658569335938,
+          1075.4320068359375,
+          806.511474609375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT022",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.590374767780304,
+        "xyxy": [
+          3.921051025390625,
+          17.995262145996094,
+          393.2453918457031,
+          396.65093994140625
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.6843758821487427,
+        "xyxy": [
+          9.73968505859375,
+          71.43966674804688,
+          393.3317565917969,
+          397.02850341796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT023",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.07931750267744064,
+        "xyxy": [
+          117.13394165039062,
+          213.639892578125,
+          740.9571533203125,
+          1166.78369140625
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.10532015562057495,
+        "xyxy": [
+          113.74899291992188,
+          415.9342041015625,
+          732.51953125,
+          1083.6025390625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT024",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.798454225063324,
+        "xyxy": [
+          56.85546875,
+          175.3596649169922,
+          950.1646728515625,
+          758.6892700195312
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.7903072237968445,
+        "xyxy": [
+          57.095703125,
+          174.6008758544922,
+          948.7922973632812,
+          758.2601928710938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT025",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.9100959897041321,
+        "xyxy": [
+          280.4845275878906,
+          55.919837951660156,
+          383.7113037109375,
+          141.2091064453125
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.9183598160743713,
+        "xyxy": [
+          280.5856628417969,
+          55.666969299316406,
+          383.9775085449219,
+          141.1975860595703
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT026",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.8946427702903748,
+        "xyxy": [
+          455.8279113769531,
+          469.64898681640625,
+          813.0040893554688,
+          681.3446655273438
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.8974180221557617,
+        "xyxy": [
+          455.8609619140625,
+          469.6759338378906,
+          812.9851684570312,
+          680.6231079101562
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT027",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.32852354645729065,
+        "xyxy": [
+          361.7544860839844,
+          92.70787048339844,
+          1187.8427734375,
+          895.0680541992188
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.2998558580875397,
+        "xyxy": [
+          363.9519958496094,
+          91.82727813720703,
+          1188.50927734375,
+          894.8175659179688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT028",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.921458899974823,
+        "xyxy": [
+          76.12657165527344,
+          84.10176849365234,
+          480.9693603515625,
+          315.28350830078125
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.9242045283317566,
+        "xyxy": [
+          75.996826171875,
+          85.15431213378906,
+          480.9591369628906,
+          314.115478515625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT029",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.3594229817390442,
+        "xyxy": [
+          3.4502930641174316,
+          6.2841796875,
+          1022.2789306640625,
+          992.875
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.3356602191925049,
+        "xyxy": [
+          3.245312452316284,
+          0.5458984375,
+          1023.9658203125,
+          1002.0519409179688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT030",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.7973545789718628,
+        "xyxy": [
+          0.0,
+          136.47158813476562,
+          773.51416015625,
+          1019.6334228515625
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.827680766582489,
+        "xyxy": [
+          0.0,
+          138.69102478027344,
+          769.1632690429688,
+          1021.0232543945312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT031",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.40138471126556396,
+        "xyxy": [
+          31.042686462402344,
+          10.59481143951416,
+          260.0,
+          247.4867401123047
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.4297299087047577,
+        "xyxy": [
+          30.989717483520508,
+          10.592365264892578,
+          260.0,
+          247.02870178222656
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT032",
+      "original": {
+        "class_id": 83,
+        "confidence": 0.44926851987838745,
+        "xyxy": [
+          144.05506896972656,
+          1.1374969482421875,
+          1070.7015380859375,
+          1051.663330078125
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.4573276937007904,
+        "xyxy": [
+          140.70880126953125,
+          1.5980987548828125,
+          1071.9154052734375,
+          1051.7275390625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT033",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.41847267746925354,
+        "xyxy": [
+          141.55152893066406,
+          160.501220703125,
+          848.8234252929688,
+          990.31982421875
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.32980117201805115,
+        "xyxy": [
+          139.21688842773438,
+          160.65341186523438,
+          849.3380737304688,
+          990.7966918945312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT034",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.4217652976512909,
+        "xyxy": [
+          9.42197322845459,
+          129.86875915527344,
+          814.2828369140625,
+          932.4482421875
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.4709053039550781,
+        "xyxy": [
+          13.353100776672363,
+          144.87646484375,
+          814.7474975585938,
+          935.5731811523438
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT035",
+      "original": {
+        "class_id": 83,
+        "confidence": 0.5409709811210632,
+        "xyxy": [
+          0.8626499176025391,
+          88.8409652709961,
+          781.9478759765625,
+          855.0847778320312
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.5962235927581787,
+        "xyxy": [
+          0.9428844451904297,
+          53.93879318237305,
+          784.050537109375,
+          872.0341796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT036",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.2864675223827362,
+        "xyxy": [
+          0.0,
+          196.7197265625,
+          532.0523071289062,
+          681.399658203125
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.33353498578071594,
+        "xyxy": [
+          0.0,
+          190.12509155273438,
+          531.06298828125,
+          680.4400634765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT037",
+      "original": {
+        "class_id": 58,
+        "confidence": 0.12403897196054459,
+        "xyxy": [
+          0.6216797232627869,
+          5.680761814117432,
+          510.998046875,
+          510.84844970703125
+        ]
+      },
+      "brightened": {
+        "class_id": 58,
+        "confidence": 0.13984236121177673,
+        "xyxy": [
+          0.685546875,
+          6.694531440734863,
+          510.8122253417969,
+          510.96392822265625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT038",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.31037482619285583,
+        "xyxy": [
+          129.4486541748047,
+          237.29177856445312,
+          807.5394897460938,
+          868.8902587890625
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.2642795741558075,
+        "xyxy": [
+          128.3455047607422,
+          237.06716918945312,
+          805.611328125,
+          869.302734375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT039",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.481180876493454,
+        "xyxy": [
+          1.2175781726837158,
+          2.6015625,
+          1020.4786987304688,
+          683.0
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.45703282952308655,
+        "xyxy": [
+          0.9326171875,
+          2.8348634243011475,
+          1020.8115234375,
+          683.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT040",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.24670876562595367,
+        "xyxy": [
+          4.276269435882568,
+          2.4515626430511475,
+          1024.0,
+          536.5961303710938
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.29295843839645386,
+        "xyxy": [
+          4.379492282867432,
+          2.1783447265625,
+          1021.5119018554688,
+          538.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT041",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.3742265999317169,
+        "xyxy": [
+          0.0,
+          289.3184814453125,
+          631.5970458984375,
+          684.8867797851562
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.379154771566391,
+        "xyxy": [
+          383.7940979003906,
+          85.97630310058594,
+          1017.5034790039062,
+          372.9927062988281
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "view_label_disagreement"
+        }
+      }
+    },
+    {
+      "case_id": "FT042",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.9558399319648743,
+        "xyxy": [
+          143.39585876464844,
+          32.09428787231445,
+          773.5720825195312,
+          380.34088134765625
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.9573636651039124,
+        "xyxy": [
+          135.02662658691406,
+          31.791763305664062,
+          772.40576171875,
+          382.1197509765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT043",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.8738855123519897,
+        "xyxy": [
+          16.11395263671875,
+          53.7449951171875,
+          625.2978515625,
+          521.6435546875
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.8689859509468079,
+        "xyxy": [
+          14.16314697265625,
+          52.0369873046875,
+          616.9855346679688,
+          521.0919799804688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT044",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.6571380496025085,
+        "xyxy": [
+          3.8563232421875,
+          352.041748046875,
+          841.6962890625,
+          944.0394287109375
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.6290451884269714,
+        "xyxy": [
+          3.187744140625,
+          346.668212890625,
+          838.0517578125,
+          940.1463623046875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT045",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.79878169298172,
+        "xyxy": [
+          2.0518341064453125,
+          10.77154541015625,
+          719.3964233398438,
+          538.2149047851562
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.8606634736061096,
+        "xyxy": [
+          1.83416748046875,
+          6.31413459777832,
+          718.414794921875,
+          537.6710205078125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT046",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.9767840504646301,
+        "xyxy": [
+          4.037618637084961,
+          136.53143310546875,
+          597.26416015625,
+          673.4815063476562
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.9742792844772339,
+        "xyxy": [
+          4.332071304321289,
+          137.44113159179688,
+          597.1716918945312,
+          673.6185302734375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT047",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.7223944664001465,
+        "xyxy": [
+          180.9352569580078,
+          6.007653713226318,
+          503.8929138183594,
+          307.0694580078125
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.7204331755638123,
+        "xyxy": [
+          183.3321533203125,
+          5.844396591186523,
+          505.4839172363281,
+          307.08697509765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT048",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.8018504977226257,
+        "xyxy": [
+          9.6943359375,
+          31.2158203125,
+          1019.49853515625,
+          1279.88916015625
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.7700256705284119,
+        "xyxy": [
+          3.4114990234375,
+          54.5941162109375,
+          1021.92626953125,
+          1254.781494140625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT049",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.565498411655426,
+        "xyxy": [
+          4.6772003173828125,
+          1.1984825134277344,
+          1186.6468505859375,
+          627.7564697265625
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.6074475646018982,
+        "xyxy": [
+          8.492317199707031,
+          2.1518898010253906,
+          1181.5367431640625,
+          627.8244018554688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT050",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.6685212850570679,
+        "xyxy": [
+          0.0,
+          4.128125190734863,
+          818.0484619140625,
+          886.2976684570312
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.6814525723457336,
+        "xyxy": [
+          0.0,
+          10.38037109375,
+          816.9789428710938,
+          890.0805053710938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT051",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.8900269269943237,
+        "xyxy": [
+          40.04302978515625,
+          1.020965576171875,
+          732.1715087890625,
+          499.3846130371094
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.8929400444030762,
+        "xyxy": [
+          39.91645812988281,
+          1.6287803649902344,
+          734.0831909179688,
+          497.1895751953125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT052",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.4084716737270355,
+        "xyxy": [
+          32.752784729003906,
+          218.59417724609375,
+          1041.8310546875,
+          1042.019775390625
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.4417087733745575,
+        "xyxy": [
+          21.778472900390625,
+          215.725830078125,
+          1042.341064453125,
+          1046.2205810546875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT053",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.5801553130149841,
+        "xyxy": [
+          226.2376708984375,
+          0.4346923828125,
+          849.28759765625,
+          230.64520263671875
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.6004313826560974,
+        "xyxy": [
+          224.28158569335938,
+          0.41650390625,
+          860.9605712890625,
+          231.3350830078125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT054",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.17781972885131836,
+        "xyxy": [
+          111.87367248535156,
+          83.52848052978516,
+          772.5724487304688,
+          639.9950561523438
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.134885773062706,
+        "xyxy": [
+          87.71520233154297,
+          81.44983673095703,
+          798.2177734375,
+          639.592041015625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT055",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.8765991926193237,
+        "xyxy": [
+          19.51386833190918,
+          181.00479125976562,
+          1016.6005859375,
+          734.1776733398438
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.8431982398033142,
+        "xyxy": [
+          17.281152725219727,
+          180.1116180419922,
+          1017.5231323242188,
+          733.7975463867188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT056",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.8855099081993103,
+        "xyxy": [
+          11.370128631591797,
+          40.04694366455078,
+          1002.3088989257812,
+          744.7885131835938
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.851937472820282,
+        "xyxy": [
+          8.630207061767578,
+          42.73564910888672,
+          1002.5822143554688,
+          754.9041137695312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT057",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.7385278344154358,
+        "xyxy": [
+          392.4898681640625,
+          410.30352783203125,
+          734.4581298828125,
+          552.1807861328125
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.7192471027374268,
+        "xyxy": [
+          391.6131896972656,
+          410.2224426269531,
+          734.78369140625,
+          551.98388671875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT058",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.7601382732391357,
+        "xyxy": [
+          113.56697845458984,
+          142.08460998535156,
+          1056.3890380859375,
+          886.9609985351562
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.772533655166626,
+        "xyxy": [
+          111.44297790527344,
+          139.3059844970703,
+          1056.4615478515625,
+          888.9983520507812
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT059",
+      "original": {
+        "class_id": 74,
+        "confidence": 0.28488609194755554,
+        "xyxy": [
+          546.791015625,
+          74.13044738769531,
+          970.9671630859375,
+          239.48548889160156
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.23148083686828613,
+        "xyxy": [
+          48.027008056640625,
+          321.0316162109375,
+          1059.8665771484375,
+          1080.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT060",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.32579219341278076,
+        "xyxy": [
+          2.5952394008636475,
+          4.881567478179932,
+          384.144775390625,
+          312.9757995605469
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.3262976408004761,
+        "xyxy": [
+          0.0,
+          111.966552734375,
+          334.38995361328125,
+          480.2813415527344
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT061",
+      "original": {
+        "class_id": 80,
+        "confidence": 0.5620232224464417,
+        "xyxy": [
+          280.4952392578125,
+          379.25140380859375,
+          930.6539306640625,
+          854.5726928710938
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.5557618141174316,
+        "xyxy": [
+          282.1358642578125,
+          376.92236328125,
+          917.082275390625,
+          853.83544921875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT062",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.9455064535140991,
+        "xyxy": [
+          221.518310546875,
+          14.665002822875977,
+          599.62939453125,
+          292.9381103515625
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.946000874042511,
+        "xyxy": [
+          220.6696014404297,
+          15.239410400390625,
+          599.5648193359375,
+          292.9885559082031
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT063",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.25005435943603516,
+        "xyxy": [
+          29.61050796508789,
+          103.01483154296875,
+          604.981689453125,
+          342.7793884277344
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.20425400137901306,
+        "xyxy": [
+          3.0371780395507812,
+          0.0,
+          615.8575439453125,
+          323.9742126464844
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT064",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.5764374136924744,
+        "xyxy": [
+          230.51803588867188,
+          42.07647705078125,
+          1142.589111328125,
+          772.8903198242188
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.5835765600204468,
+        "xyxy": [
+          229.7154541015625,
+          43.91912841796875,
+          1147.439697265625,
+          765.7966918945312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT065",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT066",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.8433966636657715,
+        "xyxy": [
+          75.63993835449219,
+          127.54410552978516,
+          673.7276000976562,
+          524.6302490234375
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.8076571226119995,
+        "xyxy": [
+          76.2816390991211,
+          129.54873657226562,
+          674.0524291992188,
+          523.4337158203125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT067",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.8769072890281677,
+        "xyxy": [
+          121.36146545410156,
+          90.0252685546875,
+          771.1163940429688,
+          491.5926513671875
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.8597704768180847,
+        "xyxy": [
+          125.08987426757812,
+          90.90248107910156,
+          774.328369140625,
+          491.4567565917969
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT068",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.8886327743530273,
+        "xyxy": [
+          12.77703857421875,
+          70.4716796875,
+          640.0,
+          639.1734619140625
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.8862258791923523,
+        "xyxy": [
+          5.129638671875,
+          68.130126953125,
+          637.3961181640625,
+          639.5794067382812
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT069",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.737683117389679,
+        "xyxy": [
+          81.91865539550781,
+          46.60198211669922,
+          782.5556640625,
+          642.9776611328125
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.7223325371742249,
+        "xyxy": [
+          52.40775680541992,
+          40.086891174316406,
+          890.8424682617188,
+          644.3048706054688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT070",
+      "original": {
+        "class_id": 86,
+        "confidence": 0.40388572216033936,
+        "xyxy": [
+          3.4802684783935547,
+          34.09185028076172,
+          725.4238891601562,
+          500.0
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.27477192878723145,
+        "xyxy": [
+          3.9415016174316406,
+          68.16569519042969,
+          696.6243286132812,
+          500.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT071",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.6200454831123352,
+        "xyxy": [
+          152.52615356445312,
+          537.4530029296875,
+          918.0410766601562,
+          1080.0
+        ]
+      },
+      "brightened": {
+        "class_id": 80,
+        "confidence": 0.6329229474067688,
+        "xyxy": [
+          121.15707397460938,
+          0.0,
+          734.760009765625,
+          147.7865447998047
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "view_label_disagreement"
+        }
+      }
+    },
+    {
+      "case_id": "FT072",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.7246244549751282,
+        "xyxy": [
+          4.798004150390625,
+          166.0225372314453,
+          975.03369140625,
+          1046.314697265625
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.6962643265724182,
+        "xyxy": [
+          2.319591522216797,
+          166.3719024658203,
+          976.274169921875,
+          1046.6260986328125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT073",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.589884340763092,
+        "xyxy": [
+          233.4098663330078,
+          45.06317138671875,
+          795.4010620117188,
+          574.6774291992188
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.5759465098381042,
+        "xyxy": [
+          229.54959106445312,
+          45.8598518371582,
+          795.4395751953125,
+          574.3604736328125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT074",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.5388578176498413,
+        "xyxy": [
+          101.24720764160156,
+          307.0765380859375,
+          790.193359375,
+          1010.8556518554688
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.47351905703544617,
+        "xyxy": [
+          103.54354095458984,
+          308.8454284667969,
+          789.7134399414062,
+          1020.5714721679688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT075",
+      "original": {
+        "class_id": 64,
+        "confidence": 0.600445568561554,
+        "xyxy": [
+          15.36379337310791,
+          0.16096535325050354,
+          494.87725830078125,
+          497.33575439453125
+        ]
+      },
+      "brightened": {
+        "class_id": 64,
+        "confidence": 0.5947641134262085,
+        "xyxy": [
+          14.694108009338379,
+          0.1424708366394043,
+          495.07049560546875,
+          496.4533996582031
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT076",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.501178503036499,
+        "xyxy": [
+          91.53520965576172,
+          102.70673370361328,
+          589.5575561523438,
+          414.1241149902344
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.45422109961509705,
+        "xyxy": [
+          91.54232025146484,
+          102.71732330322266,
+          590.0897827148438,
+          417.9653015136719
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT077",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.4169083833694458,
+        "xyxy": [
+          18.34478759765625,
+          0.5367431640625,
+          496.81292724609375,
+          400.0
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.45846593379974365,
+        "xyxy": [
+          18.362686157226562,
+          0.4476318359375,
+          497.82958984375,
+          400.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT078",
+      "original": {
+        "class_id": 64,
+        "confidence": 0.3260258138179779,
+        "xyxy": [
+          296.4779968261719,
+          117.2186050415039,
+          488.911865234375,
+          267.2437438964844
+        ]
+      },
+      "brightened": {
+        "class_id": 64,
+        "confidence": 0.39567771553993225,
+        "xyxy": [
+          296.2682800292969,
+          117.10346984863281,
+          489.8177185058594,
+          267.0822448730469
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT079",
+      "original": {
+        "class_id": 37,
+        "confidence": 0.1338626742362976,
+        "xyxy": [
+          9.617627143859863,
+          83.9361343383789,
+          478.372802734375,
+          365.0673828125
+        ]
+      },
+      "brightened": {
+        "class_id": 37,
+        "confidence": 0.12365417182445526,
+        "xyxy": [
+          8.414990425109863,
+          82.14356994628906,
+          478.14044189453125,
+          367.44268798828125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT080",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.8049002885818481,
+        "xyxy": [
+          7.478222846984863,
+          0.313232421875,
+          507.9818420410156,
+          304.9529724121094
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.7355112433433533,
+        "xyxy": [
+          8.340478897094727,
+          0.5289551019668579,
+          508.2279357910156,
+          305.10107421875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT081",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.5505788326263428,
+        "xyxy": [
+          53.490787506103516,
+          181.9217529296875,
+          613.7113037109375,
+          600.4509887695312
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.4979526996612549,
+        "xyxy": [
+          51.401573181152344,
+          183.85781860351562,
+          615.9874267578125,
+          602.6365966796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT082",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.5700265765190125,
+        "xyxy": [
+          405.731689453125,
+          559.7635498046875,
+          1005.48876953125,
+          1173.4444580078125
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.5028366446495056,
+        "xyxy": [
+          405.2664794921875,
+          559.1712646484375,
+          1002.9688720703125,
+          1174.138916015625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT083",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.5872675776481628,
+        "xyxy": [
+          32.4580078125,
+          118.3849105834961,
+          780.503662109375,
+          710.4735107421875
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.7002614140510559,
+        "xyxy": [
+          68.22865295410156,
+          131.01893615722656,
+          787.9598388671875,
+          695.6278076171875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT084",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.3610697090625763,
+        "xyxy": [
+          2.4358749389648438,
+          89.05410766601562,
+          330.2170715332031,
+          459.6234436035156
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.33835098147392273,
+        "xyxy": [
+          2.6663780212402344,
+          107.13520050048828,
+          329.4142150878906,
+          455.1180419921875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT085",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.7159563302993774,
+        "xyxy": [
+          2.238636016845703,
+          0.0,
+          539.20556640625,
+          240.09368896484375
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.6793062686920166,
+        "xyxy": [
+          2.2168521881103516,
+          0.0,
+          539.0262451171875,
+          240.9479217529297
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT086",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.8571923971176147,
+        "xyxy": [
+          108.53890991210938,
+          65.48787689208984,
+          403.05633544921875,
+          314.4403381347656
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.852307915687561,
+        "xyxy": [
+          107.72523498535156,
+          66.8989028930664,
+          403.13653564453125,
+          314.320556640625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT087",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.5157961845397949,
+        "xyxy": [
+          42.5966911315918,
+          2.137094020843506,
+          1168.634521484375,
+          688.0
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.5435034036636353,
+        "xyxy": [
+          44.598045349121094,
+          2.2844009399414062,
+          1174.3099365234375,
+          688.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT088",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.5685913562774658,
+        "xyxy": [
+          4.126519680023193,
+          10.391637802124023,
+          541.6882934570312,
+          321.32080078125
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.5520329475402832,
+        "xyxy": [
+          3.3062803745269775,
+          10.550816535949707,
+          544.0264892578125,
+          322.27569580078125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT089",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.8081767559051514,
+        "xyxy": [
+          39.44927215576172,
+          72.48526000976562,
+          554.1174926757812,
+          400.0
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.7788757085800171,
+        "xyxy": [
+          37.53364562988281,
+          73.24712371826172,
+          555.9193725585938,
+          400.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT090",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.3635859787464142,
+        "xyxy": [
+          1.3970214128494263,
+          0.0,
+          572.8074340820312,
+          330.0
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.28639236092567444,
+        "xyxy": [
+          0.4177001714706421,
+          0.0,
+          575.6876220703125,
+          330.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT091",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.4289906322956085,
+        "xyxy": [
+          50.50086975097656,
+          16.118907928466797,
+          497.71575927734375,
+          356.0288391113281
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.361199289560318,
+        "xyxy": [
+          52.23045349121094,
+          15.570365905761719,
+          497.916015625,
+          357.0478515625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT092",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.6642557978630066,
+        "xyxy": [
+          96.30054473876953,
+          88.9488296508789,
+          460.8154602050781,
+          313.0016174316406
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.5977445244789124,
+        "xyxy": [
+          85.72991943359375,
+          90.5716323852539,
+          459.7839660644531,
+          312.9056091308594
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT093",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.7546119093894958,
+        "xyxy": [
+          76.81626892089844,
+          303.53338623046875,
+          988.2588500976562,
+          1067.7022705078125
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.7630499005317688,
+        "xyxy": [
+          68.519775390625,
+          302.8234558105469,
+          986.3245849609375,
+          1062.820556640625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT094",
+      "original": {
+        "class_id": 22,
+        "confidence": 0.41068631410598755,
+        "xyxy": [
+          77.15802764892578,
+          158.65513610839844,
+          646.1171875,
+          386.0718994140625
+        ]
+      },
+      "brightened": {
+        "class_id": 22,
+        "confidence": 0.4047158360481262,
+        "xyxy": [
+          74.54823303222656,
+          158.9683380126953,
+          645.8684692382812,
+          386.07891845703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT095",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.8701513409614563,
+        "xyxy": [
+          196.3792724609375,
+          99.615478515625,
+          992.2537841796875,
+          675.289306640625
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.8629608750343323,
+        "xyxy": [
+          191.9659423828125,
+          101.73626708984375,
+          998.73193359375,
+          674.9760131835938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT096",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.6455754637718201,
+        "xyxy": [
+          52.960567474365234,
+          22.63835906982422,
+          565.5701904296875,
+          592.4518432617188
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.6457012891769409,
+        "xyxy": [
+          53.64320755004883,
+          21.896095275878906,
+          565.583251953125,
+          593.5687866210938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT097",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.6388447880744934,
+        "xyxy": [
+          3.35427188873291,
+          353.5829162597656,
+          1015.1842651367188,
+          1231.7421875
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.4181831181049347,
+        "xyxy": [
+          10.053894996643066,
+          355.5582275390625,
+          1016.1130981445312,
+          1227.3656005859375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "view_label_disagreement"
+        }
+      }
+    },
+    {
+      "case_id": "FT098",
+      "original": {
+        "class_id": 61,
+        "confidence": 0.3916785717010498,
+        "xyxy": [
+          227.54037475585938,
+          200.72543334960938,
+          415.73077392578125,
+          357.38250732421875
+        ]
+      },
+      "brightened": {
+        "class_id": 61,
+        "confidence": 0.36749568581581116,
+        "xyxy": [
+          227.82437133789062,
+          200.8543243408203,
+          415.8583679199219,
+          357.3107604980469
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT099",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.63360995054245,
+        "xyxy": [
+          1.252832055091858,
+          4.676855564117432,
+          1022.0440673828125,
+          1011.2740478515625
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.5984874963760376,
+        "xyxy": [
+          1.12744140625,
+          3.6449220180511475,
+          1021.9324340820312,
+          1011.5602416992188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT100",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.4981897175312042,
+        "xyxy": [
+          1.1958446502685547,
+          0.0,
+          493.4817810058594,
+          398.9590148925781
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.4646098017692566,
+        "xyxy": [
+          1.1567573547363281,
+          0.0,
+          493.3587951660156,
+          398.9738464355469
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT101",
+      "original": {
+        "class_id": 71,
+        "confidence": 0.3303498923778534,
+        "xyxy": [
+          411.0584716796875,
+          113.3119888305664,
+          586.0821533203125,
+          203.85928344726562
+        ]
+      },
+      "brightened": {
+        "class_id": 71,
+        "confidence": 0.29289326071739197,
+        "xyxy": [
+          410.7332763671875,
+          113.39761352539062,
+          586.0673217773438,
+          203.75454711914062
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT102",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.837031900882721,
+        "xyxy": [
+          2.2194466590881348,
+          54.952693939208984,
+          842.1126098632812,
+          1037.9132080078125
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.8526259064674377,
+        "xyxy": [
+          2.8262441158294678,
+          50.3917236328125,
+          842.2042846679688,
+          1038.2904052734375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT103",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.4554308354854584,
+        "xyxy": [
+          18.93427848815918,
+          107.17304992675781,
+          1017.5958862304688,
+          700.8270874023438
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.6235700845718384,
+        "xyxy": [
+          16.687305450439453,
+          105.5342788696289,
+          1016.4865112304688,
+          699.9826049804688
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT104",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.10374321788549423,
+        "xyxy": [
+          76.01100158691406,
+          391.75506591796875,
+          397.3697509765625,
+          627.0543212890625
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.11335160583257675,
+        "xyxy": [
+          75.29007720947266,
+          390.5049133300781,
+          396.2367858886719,
+          626.850341796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT105",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.17288744449615479,
+        "xyxy": [
+          152.571044921875,
+          124.61215209960938,
+          479.8592224121094,
+          425.6571350097656
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.15001745522022247,
+        "xyxy": [
+          150.9549102783203,
+          123.02940368652344,
+          480.2500915527344,
+          423.884521484375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT106",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.35459062457084656,
+        "xyxy": [
+          8.729496002197266,
+          25.211048126220703,
+          1073.97509765625,
+          1075.6673583984375
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.370314359664917,
+        "xyxy": [
+          9.894699096679688,
+          23.657958984375,
+          1074.9989013671875,
+          1075.6275634765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT107",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.3486858308315277,
+        "xyxy": [
+          1.0816726684570312,
+          302.0622253417969,
+          1079.4442138671875,
+          1057.1214599609375
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.39878132939338684,
+        "xyxy": [
+          2.1983642578125,
+          314.54156494140625,
+          1077.3095703125,
+          1054.4044189453125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT108",
+      "original": {
+        "class_id": 83,
+        "confidence": 0.39642319083213806,
+        "xyxy": [
+          147.45751953125,
+          493.7105712890625,
+          935.3245849609375,
+          1268.812255859375
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.4748173654079437,
+        "xyxy": [
+          148.2666015625,
+          493.5606384277344,
+          935.0909423828125,
+          1267.1195068359375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT109",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.3684955835342407,
+        "xyxy": [
+          1.0854135751724243,
+          461.01995849609375,
+          435.43829345703125,
+          992.402099609375
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.40365204215049744,
+        "xyxy": [
+          1.530852198600769,
+          459.30426025390625,
+          435.6593933105469,
+          1011.5281372070312
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT110",
+      "original": {
+        "class_id": 83,
+        "confidence": 0.7684001922607422,
+        "xyxy": [
+          71.9400634765625,
+          346.0942687988281,
+          990.184814453125,
+          1166.78759765625
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.7646181583404541,
+        "xyxy": [
+          80.7574462890625,
+          346.1553039550781,
+          990.787109375,
+          1148.0625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT111",
+      "original": {
+        "class_id": 54,
+        "confidence": 0.17332196235656738,
+        "xyxy": [
+          1.4856719970703125,
+          73.32808685302734,
+          399.42559814453125,
+          377.54083251953125
+        ]
+      },
+      "brightened": {
+        "class_id": 54,
+        "confidence": 0.0665896087884903,
+        "xyxy": [
+          2.2000885009765625,
+          86.8947982788086,
+          398.7556457519531,
+          383.0544738769531
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT112",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.7568647265434265,
+        "xyxy": [
+          20.945098876953125,
+          25.527435302734375,
+          1006.175537109375,
+          1019.4959716796875
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.7471411824226379,
+        "xyxy": [
+          14.8134765625,
+          48.006103515625,
+          985.271484375,
+          1015.4298095703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT113",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.80967116355896,
+        "xyxy": [
+          28.54058837890625,
+          226.5216064453125,
+          657.5725708007812,
+          1191.61474609375
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.7616013884544373,
+        "xyxy": [
+          21.5733642578125,
+          225.86843872070312,
+          656.8170166015625,
+          1123.321044921875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT114",
+      "original": {
+        "class_id": 39,
+        "confidence": 0.2360706776380539,
+        "xyxy": [
+          1.0325927734375,
+          132.2130584716797,
+          277.4874572753906,
+          266.92889404296875
+        ]
+      },
+      "brightened": {
+        "class_id": 39,
+        "confidence": 0.31920096278190613,
+        "xyxy": [
+          0.588470458984375,
+          121.582763671875,
+          276.98834228515625,
+          271.5325927734375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT115",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.525020182132721,
+        "xyxy": [
+          53.43228530883789,
+          76.09323120117188,
+          900.410400390625,
+          637.062744140625
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.5375736355781555,
+        "xyxy": [
+          61.93657684326172,
+          78.19275665283203,
+          900.2471923828125,
+          632.6552734375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT116",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.9014003276824951,
+        "xyxy": [
+          504.39215087890625,
+          68.92993927001953,
+          1098.871826171875,
+          534.9010009765625
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.8965639472007751,
+        "xyxy": [
+          511.6452331542969,
+          68.79621124267578,
+          1092.6094970703125,
+          536.5503540039062
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT117",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.4880853593349457,
+        "xyxy": [
+          126.90785217285156,
+          44.5681266784668,
+          564.47900390625,
+          328.714599609375
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.4607715606689453,
+        "xyxy": [
+          124.57897186279297,
+          44.897220611572266,
+          563.6097412109375,
+          328.84881591796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT118",
+      "original": {
+        "class_id": 83,
+        "confidence": 0.6265009045600891,
+        "xyxy": [
+          322.9716491699219,
+          231.60003662109375,
+          739.4879760742188,
+          597.3419189453125
+        ]
+      },
+      "brightened": {
+        "class_id": 83,
+        "confidence": 0.5386753678321838,
+        "xyxy": [
+          322.80096435546875,
+          231.68907165527344,
+          739.6768188476562,
+          597.2077026367188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT119",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.3040330111980438,
+        "xyxy": [
+          112.04957580566406,
+          102.73916625976562,
+          587.57958984375,
+          424.8271179199219
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.2989766597747803,
+        "xyxy": [
+          118.31683349609375,
+          101.693603515625,
+          587.5753173828125,
+          423.00970458984375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT120",
+      "original": {
+        "class_id": 87,
+        "confidence": 0.40734052658081055,
+        "xyxy": [
+          38.56767654418945,
+          163.40611267089844,
+          990.6971435546875,
+          920.9164428710938
+        ]
+      },
+      "brightened": {
+        "class_id": 87,
+        "confidence": 0.3570200204849243,
+        "xyxy": [
+          45.560543060302734,
+          162.43812561035156,
+          998.5878295898438,
+          925.7247314453125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT121",
+      "original": {
+        "class_id": 39,
+        "confidence": 0.1755867302417755,
+        "xyxy": [
+          195.09471130371094,
+          41.101661682128906,
+          483.7046813964844,
+          267.9203186035156
+        ]
+      },
+      "brightened": {
+        "class_id": 39,
+        "confidence": 0.16094408929347992,
+        "xyxy": [
+          195.36856079101562,
+          41.3886833190918,
+          483.64453125,
+          267.84063720703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT122",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.16646046936511993,
+        "xyxy": [
+          0.0,
+          9.706494331359863,
+          510.6181640625,
+          506.6246032714844
+        ]
+      },
+      "brightened": {
+        "class_id": 90,
+        "confidence": 0.11260471493005753,
+        "xyxy": [
+          0.0,
+          10.163037300109863,
+          510.5721130371094,
+          507.1290588378906
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT123",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.5146803259849548,
+        "xyxy": [
+          17.161376953125,
+          39.168800354003906,
+          482.73419189453125,
+          392.32550048828125
+        ]
+      },
+      "brightened": {
+        "class_id": 90,
+        "confidence": 0.5655844807624817,
+        "xyxy": [
+          17.367481231689453,
+          41.062110900878906,
+          491.4449157714844,
+          394.5144958496094
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT124",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.6580421328544617,
+        "xyxy": [
+          7.401562690734863,
+          63.81951904296875,
+          479.8654479980469,
+          455.068359375
+        ]
+      },
+      "brightened": {
+        "class_id": 90,
+        "confidence": 0.6688277721405029,
+        "xyxy": [
+          6.744580268859863,
+          63.747901916503906,
+          485.59326171875,
+          455.0317077636719
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT125",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.5400742888450623,
+        "xyxy": [
+          2.931591749191284,
+          8.024621963500977,
+          507.1370544433594,
+          381.43408203125
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.6203952431678772,
+        "xyxy": [
+          2.064746141433716,
+          8.652636528015137,
+          508.20489501953125,
+          381.75537109375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT126",
+      "original": {
+        "class_id": 91,
+        "confidence": 0.4882538914680481,
+        "xyxy": [
+          25.820409774780273,
+          130.6584014892578,
+          510.42236328125,
+          509.78521728515625
+        ]
+      },
+      "brightened": {
+        "class_id": 91,
+        "confidence": 0.5116509199142456,
+        "xyxy": [
+          29.868066787719727,
+          130.21739196777344,
+          510.15625,
+          508.2743225097656
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT127",
+      "original": {
+        "class_id": 88,
+        "confidence": 0.34028497338294983,
+        "xyxy": [
+          126.65828704833984,
+          115.92138671875,
+          454.97198486328125,
+          280.2228088378906
+        ]
+      },
+      "brightened": {
+        "class_id": 88,
+        "confidence": 0.169343963265419,
+        "xyxy": [
+          128.06553649902344,
+          116.8586654663086,
+          442.8509826660156,
+          279.5589599609375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT128",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.4292130172252655,
+        "xyxy": [
+          1.902441382408142,
+          7.552587985992432,
+          511.1742248535156,
+          501.8048400878906
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.12031234800815582,
+        "xyxy": [
+          7.806836128234863,
+          14.510498046875,
+          510.70263671875,
+          487.0494689941406
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT129",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.8927882313728333,
+        "xyxy": [
+          300.3827819824219,
+          2.5134034156799316,
+          511.5154724121094,
+          196.03233337402344
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.7132633328437805,
+        "xyxy": [
+          300.3384704589844,
+          1.314550757408142,
+          511.8617858886719,
+          194.27297973632812
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT130",
+      "original": {
+        "class_id": 43,
+        "confidence": 0.6626860499382019,
+        "xyxy": [
+          3.893688917160034,
+          181.460205078125,
+          141.9108428955078,
+          349.39697265625
+        ]
+      },
+      "brightened": {
+        "class_id": 43,
+        "confidence": 0.690163791179657,
+        "xyxy": [
+          3.679638624191284,
+          181.686767578125,
+          141.66375732421875,
+          348.43487548828125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT131",
+      "original": {
+        "class_id": 27,
+        "confidence": 0.46297332644462585,
+        "xyxy": [
+          9.2086181640625,
+          71.63240051269531,
+          197.751953125,
+          232.22154235839844
+        ]
+      },
+      "brightened": {
+        "class_id": 27,
+        "confidence": 0.47958558797836304,
+        "xyxy": [
+          9.347418785095215,
+          70.8778305053711,
+          197.1038055419922,
+          233.88072204589844
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT132",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.9719792008399963,
+        "xyxy": [
+          55.34978103637695,
+          10.649499893188477,
+          361.64715576171875,
+          286.86181640625
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.9735281467437744,
+        "xyxy": [
+          54.960060119628906,
+          10.703661918640137,
+          361.3907775878906,
+          286.8223571777344
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT133",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.43316277861595154,
+        "xyxy": [
+          61.06538009643555,
+          152.36993408203125,
+          455.4851989746094,
+          449.8688659667969
+        ]
+      },
+      "brightened": {
+        "class_id": 90,
+        "confidence": 0.3410045802593231,
+        "xyxy": [
+          61.66463851928711,
+          147.90420532226562,
+          463.93780517578125,
+          451.11163330078125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT134",
+      "original": {
+        "class_id": 27,
+        "confidence": 0.2851378619670868,
+        "xyxy": [
+          240.73599243164062,
+          182.58755493164062,
+          418.9080505371094,
+          489.27838134765625
+        ]
+      },
+      "brightened": {
+        "class_id": 27,
+        "confidence": 0.3806995749473572,
+        "xyxy": [
+          240.19834899902344,
+          182.93048095703125,
+          418.9313049316406,
+          489.1807556152344
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT135",
+      "original": {
+        "class_id": 66,
+        "confidence": 0.10333731025457382,
+        "xyxy": [
+          273.201171875,
+          96.8138427734375,
+          429.0407409667969,
+          253.83213806152344
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.11203563213348389,
+        "xyxy": [
+          9.38022518157959,
+          153.2986602783203,
+          277.0101623535156,
+          395.9419860839844
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT136",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.4508950710296631,
+        "xyxy": [
+          106.81001281738281,
+          95.18428802490234,
+          416.3174743652344,
+          350.09033203125
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.4605177938938141,
+        "xyxy": [
+          107.7939453125,
+          92.23805236816406,
+          419.043212890625,
+          353.8138122558594
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT137",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.8344272971153259,
+        "xyxy": [
+          2.5738770961761475,
+          67.72954559326172,
+          496.923828125,
+          492.9098815917969
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.8468416333198547,
+        "xyxy": [
+          2.563769578933716,
+          73.38032531738281,
+          496.2365417480469,
+          494.015380859375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT138",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.744171142578125,
+        "xyxy": [
+          8.072265625,
+          4.503320217132568,
+          499.9452209472656,
+          501.4325256347656
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.7943397760391235,
+        "xyxy": [
+          8.235156059265137,
+          4.846972942352295,
+          500.2811584472656,
+          501.5052795410156
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT139",
+      "original": {
+        "class_id": 85,
+        "confidence": 0.19127315282821655,
+        "xyxy": [
+          0.3415771424770355,
+          33.30093002319336,
+          395.07318115234375,
+          480.8937683105469
+        ]
+      },
+      "brightened": {
+        "class_id": 85,
+        "confidence": 0.3243449032306671,
+        "xyxy": [
+          0.30646973848342896,
+          36.109375,
+          396.6185607910156,
+          478.76153564453125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT140",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.38488391041755676,
+        "xyxy": [
+          3.8453125953674316,
+          94.6598129272461,
+          384.0,
+          503.16387939453125
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.3898545503616333,
+        "xyxy": [
+          4.947021484375,
+          94.33281707763672,
+          384.0,
+          503.8813171386719
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT141",
+      "original": {
+        "class_id": 72,
+        "confidence": 0.3284459114074707,
+        "xyxy": [
+          3.0291504859924316,
+          16.341882705688477,
+          506.6788635253906,
+          383.2723693847656
+        ]
+      },
+      "brightened": {
+        "class_id": 72,
+        "confidence": 0.3469620943069458,
+        "xyxy": [
+          3.01806640625,
+          16.20429801940918,
+          507.1143493652344,
+          383.3484802246094
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT142",
+      "original": {
+        "class_id": 11,
+        "confidence": 0.6708167791366577,
+        "xyxy": [
+          68.29045867919922,
+          114.92756652832031,
+          347.9864196777344,
+          277.77972412109375
+        ]
+      },
+      "brightened": {
+        "class_id": 11,
+        "confidence": 0.6405488848686218,
+        "xyxy": [
+          68.06206512451172,
+          114.9952163696289,
+          348.05010986328125,
+          277.72967529296875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT143",
+      "original": {
+        "class_id": 64,
+        "confidence": 0.42177510261535645,
+        "xyxy": [
+          0.706347644329071,
+          76.49462890625,
+          509.7740173339844,
+          506.1613464355469
+        ]
+      },
+      "brightened": {
+        "class_id": 64,
+        "confidence": 0.4070776402950287,
+        "xyxy": [
+          0.7083984613418579,
+          69.019775390625,
+          510.6149597167969,
+          496.3332214355469
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT144",
+      "original": {
+        "class_id": 22,
+        "confidence": 0.6052709817886353,
+        "xyxy": [
+          269.1954650878906,
+          68.7349853515625,
+          461.9970703125,
+          281.1903991699219
+        ]
+      },
+      "brightened": {
+        "class_id": 22,
+        "confidence": 0.7828239798545837,
+        "xyxy": [
+          269.879638671875,
+          68.659912109375,
+          462.0567932128906,
+          280.9851989746094
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT145",
+      "original": {
+        "class_id": 11,
+        "confidence": 0.30313193798065186,
+        "xyxy": [
+          278.0384826660156,
+          121.48455810546875,
+          509.6911315917969,
+          291.54345703125
+        ]
+      },
+      "brightened": {
+        "class_id": 11,
+        "confidence": 0.19684888422489166,
+        "xyxy": [
+          274.10772705078125,
+          121.8443374633789,
+          509.43682861328125,
+          291.65283203125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT146",
+      "original": {
+        "class_id": 64,
+        "confidence": 0.12477722018957138,
+        "xyxy": [
+          1.371191382408142,
+          58.71064376831055,
+          507.919921875,
+          510.6452331542969
+        ]
+      },
+      "brightened": {
+        "class_id": 64,
+        "confidence": 0.13700436055660248,
+        "xyxy": [
+          1.0107910633087158,
+          58.01533126831055,
+          507.81036376953125,
+          510.678466796875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT147",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.43557652831077576,
+        "xyxy": [
+          1.13037109375,
+          7.311816692352295,
+          511.4750061035156,
+          507.479248046875
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.49265390634536743,
+        "xyxy": [
+          2.7176759243011475,
+          9.323290824890137,
+          509.4354553222656,
+          507.3788146972656
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT148",
+      "original": {
+        "class_id": 90,
+        "confidence": 0.6138169169425964,
+        "xyxy": [
+          39.25712966918945,
+          106.56044006347656,
+          505.0509948730469,
+          360.1025390625
+        ]
+      },
+      "brightened": {
+        "class_id": 90,
+        "confidence": 0.6025448441505432,
+        "xyxy": [
+          40.269874572753906,
+          106.84673309326172,
+          505.0868835449219,
+          360.766845703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT149",
+      "original": {
+        "class_id": 84,
+        "confidence": 0.7220510840415955,
+        "xyxy": [
+          1.38916015625,
+          1.0769531726837158,
+          492.94854736328125,
+          507.8199157714844
+        ]
+      },
+      "brightened": {
+        "class_id": 84,
+        "confidence": 0.7912276387214661,
+        "xyxy": [
+          2.2862305641174316,
+          0.9061035513877869,
+          488.24224853515625,
+          507.41925048828125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT150",
+      "original": {
+        "class_id": 55,
+        "confidence": 0.18280068039894104,
+        "xyxy": [
+          3.376025438308716,
+          168.42495727539062,
+          372.42657470703125,
+          512.0
+        ]
+      },
+      "brightened": {
+        "class_id": 55,
+        "confidence": 0.18767227232456207,
+        "xyxy": [
+          3.1868653297424316,
+          172.4175262451172,
+          373.14337158203125,
+          512.0
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT151",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT152",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT153",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.2656553089618683,
+        "xyxy": [
+          226.7003631591797,
+          540.066650390625,
+          585.4970092773438,
+          869.4365234375
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.16723081469535828,
+        "xyxy": [
+          234.81085205078125,
+          539.7947998046875,
+          586.36279296875,
+          874.3172607421875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT154",
+      "original": {
+        "class_id": 6,
+        "confidence": 0.4455726742744446,
+        "xyxy": [
+          0.407501220703125,
+          305.1194152832031,
+          411.7872314453125,
+          841.3271484375
+        ]
+      },
+      "brightened": {
+        "class_id": 6,
+        "confidence": 0.4838463068008423,
+        "xyxy": [
+          0.43310546875,
+          305.3866882324219,
+          412.0977783203125,
+          842.066650390625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT155",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT156",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT157",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT158",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT159",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT160",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.11575697362422943,
+        "xyxy": [
+          273.3533630371094,
+          340.7965087890625,
+          672.4891357421875,
+          616.6121826171875
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.10198573023080826,
+        "xyxy": [
+          272.8836364746094,
+          338.2752685546875,
+          673.1292724609375,
+          616.70751953125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT161",
+      "original": {
+        "class_id": 68,
+        "confidence": 0.09892227500677109,
+        "xyxy": [
+          154.9195556640625,
+          581.509521484375,
+          677.1856689453125,
+          875.221435546875
+        ]
+      },
+      "brightened": {
+        "class_id": 68,
+        "confidence": 0.05924750119447708,
+        "xyxy": [
+          153.1820068359375,
+          577.2113037109375,
+          683.49072265625,
+          874.2789306640625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT162",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT163",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.06925845146179199,
+        "xyxy": [
+          691.9918212890625,
+          718.3819580078125,
+          1072.043212890625,
+          908.9095458984375
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.0823364183306694,
+        "xyxy": [
+          693.7843017578125,
+          717.9371337890625,
+          1072.100341796875,
+          908.76318359375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT164",
+      "original": {
+        "class_id": 89,
+        "confidence": 0.6497998237609863,
+        "xyxy": [
+          2.529052734375,
+          0.510528564453125,
+          1280.0,
+          955.275146484375
+        ]
+      },
+      "brightened": {
+        "class_id": 89,
+        "confidence": 0.5965733528137207,
+        "xyxy": [
+          2.295166015625,
+          0.246612548828125,
+          1280.0,
+          957.200439453125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "accepted",
+          "reason": "accepted"
+        }
+      }
+    },
+    {
+      "case_id": "FT165",
+      "original": {
+        "class_id": 69,
+        "confidence": 0.233653262257576,
+        "xyxy": [
+          162.45037841796875,
+          108.47219848632812,
+          630.56689453125,
+          268.62060546875
+        ]
+      },
+      "brightened": {
+        "class_id": 69,
+        "confidence": 0.21474891901016235,
+        "xyxy": [
+          161.433837890625,
+          109.6658935546875,
+          631.0853271484375,
+          267.45599365234375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT166",
+      "original": {
+        "class_id": 47,
+        "confidence": 0.09758173674345016,
+        "xyxy": [
+          9.976165771484375,
+          584.256591796875,
+          463.1170654296875,
+          854.2626953125
+        ]
+      },
+      "brightened": {
+        "class_id": 47,
+        "confidence": 0.11295913904905319,
+        "xyxy": [
+          10.29327392578125,
+          584.0493774414062,
+          462.3902893066406,
+          855.4467163085938
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT167",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT168",
+      "original": {
+        "class_id": 81,
+        "confidence": 0.4468192458152771,
+        "xyxy": [
+          59.953521728515625,
+          911.2838745117188,
+          762.4808349609375,
+          1269.466064453125
+        ]
+      },
+      "brightened": {
+        "class_id": 81,
+        "confidence": 0.40939441323280334,
+        "xyxy": [
+          80.113525390625,
+          672.3135986328125,
+          772.441162109375,
+          1273.2716064453125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "view_box_disagreement"
+        }
+      }
+    },
+    {
+      "case_id": "FT169",
+      "original": {
+        "class_id": 59,
+        "confidence": 0.10350245237350464,
+        "xyxy": [
+          203.742919921875,
+          588.424560546875,
+          663.1522216796875,
+          831.096435546875
+        ]
+      },
+      "brightened": {
+        "class_id": 59,
+        "confidence": 0.08359906822443008,
+        "xyxy": [
+          203.9339599609375,
+          588.443603515625,
+          662.273681640625,
+          830.635498046875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT170",
+      "original": {
+        "class_id": 26,
+        "confidence": 0.09349209815263748,
+        "xyxy": [
+          796.158447265625,
+          625.013427734375,
+          810.566162109375,
+          646.354248046875
+        ]
+      },
+      "brightened": {
+        "class_id": 26,
+        "confidence": 0.103298120200634,
+        "xyxy": [
+          796.193115234375,
+          624.97314453125,
+          810.404052734375,
+          646.337646484375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT171",
+      "original": {
+        "class_id": 50,
+        "confidence": 0.7532994151115417,
+        "xyxy": [
+          3.0029728412628174,
+          56.4659538269043,
+          392.74639892578125,
+          497.8855285644531
+        ]
+      },
+      "brightened": {
+        "class_id": 50,
+        "confidence": 0.6916704177856445,
+        "xyxy": [
+          2.359348773956299,
+          54.315528869628906,
+          392.63287353515625,
+          497.07281494140625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT172",
+      "original": {
+        "class_id": 16,
+        "confidence": 0.07989172637462616,
+        "xyxy": [
+          582.2855224609375,
+          787.3741455078125,
+          726.3529052734375,
+          1068.0733642578125
+        ]
+      },
+      "brightened": {
+        "class_id": 86,
+        "confidence": 0.09502191096544266,
+        "xyxy": [
+          59.892974853515625,
+          684.86181640625,
+          1022.5755615234375,
+          1158.552978515625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT173",
+      "original": null,
+      "brightened": {
+        "class_id": 43,
+        "confidence": 0.06073843687772751,
+        "xyxy": [
+          0.029541015625,
+          55.91705322265625,
+          440.67767333984375,
+          581.903076171875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT174",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT175",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT176",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT177",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT178",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.10329604148864746,
+        "xyxy": [
+          71.2406005859375,
+          178.95550537109375,
+          1220.31005859375,
+          464.20758056640625
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.16740792989730835,
+        "xyxy": [
+          68.4432373046875,
+          179.16363525390625,
+          1225.6397705078125,
+          465.14727783203125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT179",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT180",
+      "original": {
+        "class_id": 35,
+        "confidence": 0.4714035987854004,
+        "xyxy": [
+          75.690673828125,
+          48.21781921386719,
+          586.5401611328125,
+          494.40447998046875
+        ]
+      },
+      "brightened": {
+        "class_id": 35,
+        "confidence": 0.374358594417572,
+        "xyxy": [
+          75.18571472167969,
+          42.4864501953125,
+          586.6521606445312,
+          494.58673095703125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT181",
+      "original": {
+        "class_id": 35,
+        "confidence": 0.05122317373752594,
+        "xyxy": [
+          0.0,
+          416.5628662109375,
+          209.30514526367188,
+          616.6497802734375
+        ]
+      },
+      "brightened": {
+        "class_id": 35,
+        "confidence": 0.0544428713619709,
+        "xyxy": [
+          0.0,
+          414.9161376953125,
+          209.02090454101562,
+          617.3447265625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT182",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT183",
+      "original": {
+        "class_id": 52,
+        "confidence": 0.19844116270542145,
+        "xyxy": [
+          643.4085693359375,
+          544.7501220703125,
+          740.5382080078125,
+          636.0748291015625
+        ]
+      },
+      "brightened": {
+        "class_id": 52,
+        "confidence": 0.1924317330121994,
+        "xyxy": [
+          643.6112060546875,
+          544.73095703125,
+          740.5814208984375,
+          636.185791015625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT184",
+      "original": {
+        "class_id": 82,
+        "confidence": 0.09962297976016998,
+        "xyxy": [
+          120.40673828125,
+          41.4486083984375,
+          1154.435791015625,
+          796.6265869140625
+        ]
+      },
+      "brightened": {
+        "class_id": 82,
+        "confidence": 0.16179464757442474,
+        "xyxy": [
+          117.0025634765625,
+          41.207275390625,
+          1155.4940185546875,
+          796.8148193359375
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "accepted",
+          "reason": "accepted"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "below_threshold"
+        }
+      }
+    },
+    {
+      "case_id": "FT185",
+      "original": {
+        "class_id": 69,
+        "confidence": 0.0888947993516922,
+        "xyxy": [
+          71.0506591796875,
+          468.005615234375,
+          958.524169921875,
+          1238.675048828125
+        ]
+      },
+      "brightened": {
+        "class_id": 69,
+        "confidence": 0.1059257909655571,
+        "xyxy": [
+          70.22293090820312,
+          468.2727355957031,
+          956.87109375,
+          1237.739501953125
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT186",
+      "original": {
+        "class_id": 73,
+        "confidence": 0.07339015603065491,
+        "xyxy": [
+          891.013671875,
+          74.7939453125,
+          1174.381591796875,
+          292.3402099609375
+        ]
+      },
+      "brightened": {
+        "class_id": 73,
+        "confidence": 0.057098809629678726,
+        "xyxy": [
+          891.0701293945312,
+          74.9447021484375,
+          1174.273681640625,
+          292.010009765625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT187",
+      "original": {
+        "class_id": 69,
+        "confidence": 0.11635010689496994,
+        "xyxy": [
+          72.99284362792969,
+          183.953125,
+          462.48846435546875,
+          411.3310546875
+        ]
+      },
+      "brightened": {
+        "class_id": 69,
+        "confidence": 0.11002147197723389,
+        "xyxy": [
+          72.89616394042969,
+          184.8648681640625,
+          463.03228759765625,
+          411.9920654296875
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT188",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.14061398804187775,
+        "xyxy": [
+          730.5411376953125,
+          397.9912109375,
+          1218.2745361328125,
+          527.232421875
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.09605897963047028,
+        "xyxy": [
+          730.1693115234375,
+          398.20477294921875,
+          1218.3494873046875,
+          527.5455932617188
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT189",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT190",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT191",
+      "original": {
+        "class_id": 13,
+        "confidence": 0.057573042809963226,
+        "xyxy": [
+          266.1006164550781,
+          168.04299926757812,
+          1177.941162109375,
+          1073.170166015625
+        ]
+      },
+      "brightened": {
+        "class_id": 13,
+        "confidence": 0.05877703055739403,
+        "xyxy": [
+          266.399658203125,
+          164.9212646484375,
+          1179.304931640625,
+          1072.498291015625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT192",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT193",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT194",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT195",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT196",
+      "original": {
+        "class_id": 42,
+        "confidence": 0.13604111969470978,
+        "xyxy": [
+          141.32635498046875,
+          787.468017578125,
+          429.85406494140625,
+          1081.16552734375
+        ]
+      },
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    },
+    {
+      "case_id": "FT197",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT198",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT199",
+      "original": null,
+      "brightened": null,
+      "expected": {
+        "P0": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P1": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        },
+        "P2": {
+          "status": "no_detection",
+          "reason": "no_candidate"
+        }
+      }
+    },
+    {
+      "case_id": "FT200",
+      "original": {
+        "class_id": 56,
+        "confidence": 0.07561670988798141,
+        "xyxy": [
+          645.7674560546875,
+          523.7807006835938,
+          718.6395263671875,
+          574.5437622070312
+        ]
+      },
+      "brightened": {
+        "class_id": 56,
+        "confidence": 0.07227157801389694,
+        "xyxy": [
+          646.060546875,
+          523.4326171875,
+          718.7080078125,
+          574.26416015625
+        ]
+      },
+      "expected": {
+        "P0": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P1": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        },
+        "P2": {
+          "status": "uncertain",
+          "reason": "outside_catalogue"
+        }
+      }
+    }
+  ]
+}

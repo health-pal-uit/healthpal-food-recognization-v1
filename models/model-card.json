@@ -1,0 +1,46 @@
+{
+  "model_version": "healthpal-selected-92-v1",
+  "sha256": "c282c0654c589feb5fec8c6247e99a0ef92f0eefeabf08c5ce825ff7cfd08579",
+  "purpose": "User-confirmed food suggestions in HealthPal; ten-food research catalogue.",
+  "no_automatic_nutrition_logging": true,
+  "no_portion_or_calorie_estimation_from_image": true,
+  "final_evaluation": {
+    "report_sha256": "bd04637fc6d4bc08d5c1e7752c7959ab3c8236e49fbf90d0e3d37de277e0671e",
+    "target_food_photos": 100,
+    "other_food_photos": 50,
+    "non_food_photos": 50,
+    "target_conditions": {
+      "standard": 70,
+      "low_light": 3,
+      "angle_occlusion": 27
+    },
+    "P1": {
+      "target_accepted": 73,
+      "correct_target_accepted": 62,
+      "wrong_target_accepted": 11,
+      "other_food_accepted": 16,
+      "non_food_accepted": 2
+    }
+  },
+  "supplementary_original_P1_comparison": {
+    "original_correct_target_accepted": 50,
+    "selected_correct_target_accepted": 62,
+    "original_non_food_accepted": 0,
+    "selected_non_food_accepted": 2,
+    "same_fixed_policy_and_200_photos": true,
+    "posthoc_supplement": true
+  },
+  "limits": [
+    "Not the best on every metric; the original full training goal was not passed.",
+    "Only three low-light examples across two soup classes; no broad robustness claim.",
+    "Outside-food and non-food false suggestions remain. Acceptance is not guaranteed correctness.",
+    "Unknown inherited pretraining overlap is not ruled out.",
+    "Local API verification does not establish NestJS/Flutter integration or end-to-end latency."
+  ],
+  "source_references": [
+    "context/overview.md",
+    "context/source-policy.md",
+    "documentation/UIT_HCM_NCKH_SV_KhongHuynhNgocHan.pdf, pp2,5",
+    "food-recognition/theseus/utilities/download.py: original YOLOv8 checkpoint source mapping."
+  ]
+}

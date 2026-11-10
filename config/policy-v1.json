@@ -1,0 +1,45 @@
+{
+  "policy_version": "healthpal-main10-20261110-v1",
+  "catalogue_version": "main10-v1",
+  "candidate_floor": 0.05,
+  "confidence_threshold": 0.36970099806785583,
+  "bright_candidate_floor": 0.05,
+  "brightness_factor": 1.15,
+  "stability_iou": 0.75,
+  "target_class_ids": [
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89
+  ],
+  "target_labels": [
+    "Banh_mi",
+    "Banh_trang_tron",
+    "Banh_xeo",
+    "Bun_bo_Hue",
+    "Bun_dau",
+    "Com_tam",
+    "Goi_cuon",
+    "Pho",
+    "Hu_tieu",
+    "Xoi"
+  ],
+  "prediction": {
+    "imgsz": 640,
+    "conf": 0.05,
+    "iou": 0.7,
+    "max_det": 300,
+    "rect": false,
+    "half": false,
+    "augment": false,
+    "classes": null
+  },
+  "source_protocol_sha256": "beb5ab143d489472b8d8c752c553851bc37e5aa4ee36a7c8f36268a08e0dd248",
+  "production_brightness_schedule": "For P2/compare, run the brightened pass only when P1 accepts. This preserves decisions; service latency must be measured separately from the always-bright benchmark."
+}

@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-10",
+  "status": "local_ai_service_verified",
+  "unit_tests_passed": 15,
+  "frozen_policy_regression_checks": 600,
+  "fixture_photos_used_for_saved_metadata": 200,
+  "real_model_api_compare_cases": 3,
+  "real_photo_requests_in_ASGI_smoke": 5,
+  "native_checkpoint_sha256": "c282c0654c589feb5fec8c6247e99a0ef92f0eefeabf08c5ce825ff7cfd08579",
+  "actual_local_TCP_server_check": {
+    "passed": true,
+    "scope": "Actual local TCP server started through python run.py; stopped after verification.",
+    "health_ready": true,
+    "browser_docs_http_200": true,
+    "native_model_request_http_200": true,
+    "actual_suggestion": "Bun_dau",
+    "server_left_running": false,
+    "backend_mobile_integration_verified": false
+  },
+  "verification_scope": "Serving/contract parity, not another accuracy benchmark or training run.",
+  "NestJS_adapter_implemented": false,
+  "Flutter_integration_implemented": false,
+  "integrated_timeout_tested": false,
+  "source_files_sha256": {
+    "run.py": "9d5eb894345775accd295bbbe29d1af7cdf5eadc505dfb398101050861863075",
+    "healthpal_ai/app.py": "fb1586ec1c5951489a56eb184af9e13d37d723769171c0dcc858c002aefc63d9",
+    "healthpal_ai/policy.py": "1d7e66e3ceb0de820f0d11e6da47c3640a9d4688316787552b9a213f3470f664",
+    "healthpal_ai/schemas.py": "951a4506680b67fb8e003678fe8e76d12c87e5575a3bce91bf9105c377113c35",
+    "healthpal_ai/service.py": "4f8758065cd0f054c9e403ee32f8e6dc01679086a890a12dad89b3f74ac47de9",
+    "healthpal_ai/__init__.py": "5c7ddd028b4a4c5be89fbe5a1df2eaadcd8dfceff05f13c3966bd3ed4898d7df",
+    "scripts/import_model.py": "7ff73205d9dae9ae1b34f948b85c3691618774f597a02fa8dc4877bb8b422ff0",
+    "scripts/verify_release.py": "d1791a1d2e4e76961d06af77f809724c1ebdb06cfefa73dca6607a961b841904",
+    "tests/test_service.py": "684a23a7c210b3b374950ff1f5d949a3f6194fe7edd6e027e384afb2d22bedd9",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "publication_status_at_verification": "Not published when these local checks were performed.",
+  "policy_config_sha256": "b0e826717503596e634fe0afbe8a2f0d2908921b453fde812ff6c47a874bc467",
+  "text_packaging": "UTF-8 with LF line endings, enforced by .gitattributes; numeric policy settings and model weights unchanged."
+}

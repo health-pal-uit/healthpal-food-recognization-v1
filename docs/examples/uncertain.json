@@ -1,0 +1,32 @@
+{
+  "policy": "P1",
+  "status": "uncertain",
+  "reason": "below_threshold",
+  "suggestion": null,
+  "schema_version": "1.0",
+  "request_id": "b34d66af-3b3f-4e26-bb70-2fe97fa42c43",
+  "model_version": "healthpal-selected-92-v1",
+  "model_sha256": "c282c0654c589feb5fec8c6247e99a0ef92f0eefeabf08c5ce825ff7cfd08579",
+  "policy_version": "healthpal-main10-20261110-v1",
+  "catalogue_version": "main10-v1",
+  "image": {
+    "width": 1024,
+    "height": 1024,
+    "coordinate_space": "decoded_exif_oriented_image"
+  },
+  "candidate": {
+    "class_id": 87,
+    "label": "Pho",
+    "confidence": 0.14411169290542603,
+    "bbox_xyxy": [
+      9.15185546875,
+      0.0,
+      993.0510864257812,
+      1016.4767456054688
+    ]
+  },
+  "user_confirmation_required": true,
+  "original_inference_passes": 1,
+  "brightened_inference_passes": 0,
+  "processing_ms": 184.0414998587221
+}

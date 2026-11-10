@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "request_id": "900a3e5d-6254-4f9e-9906-9aa2e53823ab",
+  "error": {
+    "code": "invalid_image",
+    "message": "The uploaded file cannot be decoded as an image.",
+    "retryable": false
+  }
+}

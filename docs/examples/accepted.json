@@ -1,0 +1,42 @@
+{
+  "policy": "P1",
+  "status": "accepted",
+  "reason": "accepted",
+  "suggestion": {
+    "class_id": 84,
+    "label": "Bun_dau",
+    "confidence": 0.3742244839668274,
+    "bbox_xyxy": [
+      0.0,
+      289.31854248046875,
+      631.5970458984375,
+      684.8868408203125
+    ]
+  },
+  "schema_version": "1.0",
+  "request_id": "4f4dcf53-67dd-4f36-a7d0-dc4031d14002",
+  "model_version": "healthpal-selected-92-v1",
+  "model_sha256": "c282c0654c589feb5fec8c6247e99a0ef92f0eefeabf08c5ce825ff7cfd08579",
+  "policy_version": "healthpal-main10-20261110-v1",
+  "catalogue_version": "main10-v1",
+  "image": {
+    "width": 1080,
+    "height": 1080,
+    "coordinate_space": "decoded_exif_oriented_image"
+  },
+  "candidate": {
+    "class_id": 84,
+    "label": "Bun_dau",
+    "confidence": 0.3742244839668274,
+    "bbox_xyxy": [
+      0.0,
+      289.31854248046875,
+      631.5970458984375,
+      684.8868408203125
+    ]
+  },
+  "user_confirmation_required": true,
+  "original_inference_passes": 1,
+  "brightened_inference_passes": 0,
+  "processing_ms": 176.261099986732
+}
